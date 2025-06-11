@@ -17,11 +17,9 @@ This project investigates the efficacy of **TransGAN**, a model that combines th
 ## Datasets Used
 
 * **MVTecAD**: A benchmark dataset for anomaly detection containing 5000 images across fifteen different objects (e.g., 'hazelnut', 'metal nut', 'bottle') with flawless training pictures and a test set including various defects.
-    * 
-        ![MVTecAD Dataset Sample](ImagesCapstone/images.jpeg)
+    ![MVTecAD Dataset Sample](ImagesCapstone/images.jpeg)
 * **CIFAR-10**: Comprises 32x32 pixel color images from 10 classes of objects (e.g., airplane, automobile, bird, cat). One class is selected as anomaly and others as normal data for training.
-    * 
-        ![CIFAR-10 Sample Dataset](ImagesCapstone/4fdf2b82-2bc3-4f97-ba51-400322b228b1.png)
+   ![CIFAR-10 Sample Dataset](ImagesCapstone/4fdf2b82-2bc3-4f97-ba51-400322b228b1.png)
 
 ## Training Details
 
@@ -41,12 +39,10 @@ Experiments were conducted on GPU T4x2 with 15GB Memory using the PyTorch framew
 ### Anomaly Detection in MVTec-AD
 
 * Generated images for the 'hazelnut' class show transformation from noise to more realistic images as epochs increase, though not yet production-grade.
-    * 
-        ![Generated Images of Hazelnut Dataset](ImagesCapstone/2331.png )
+     ![Generated Images of Hazelnut Dataset](ImagesCapstone/2331.png )
 
 * Anomaly reconstruction on test images with defects shows poor reconstruction, and anomalous regions are identified by comparing the input and reconstructed images.
-    * 
-        ![Anomaly Reconstruction and Highlighting of Hazelnut](ImagesCapstone/image.png)
+    ![Anomaly Reconstruction and Highlighting of Hazelnut](ImagesCapstone/image.png)
 
 
 ## Future Work
